@@ -6,7 +6,7 @@ Pasos para hacer las pruebas:
 
 3-	Cambiar el valor del parámetro Data Source en la cadena de conexión, que se encuentra en el controlador CreacionUsuarioController.cs, por el server name del Sql Server Manament Studio instalado en la maquina donde se probara el proyecto.
 
-4-	Ejecuta el proyecto en Visual Studio, como se implemento Swagger el mismo se ejecutará desde ahí, donde se podrá hacer las pruebas de la API.
+4-	Ejecuta el proyecto en Visual Studio con la opcion http del boton ejecutar, como se implemento Swagger el mismo se ejecutará desde ahí, donde se podrá hacer las pruebas de la API.
 
 5-	Ejecutar el método de login, el mismo cuenta con los datos de login de un usuario defecto, ya creado en la BD en el paso 2. Este devolverá un Jwt Token.
 
