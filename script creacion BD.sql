@@ -2,6 +2,7 @@
 GO
 /****** Object:  Database [usuarios_api]    Script Date: 1/11/2024 6:51:50 p. m. ******/
 CREATE DATABASE [usuarios_api]
+ALTER DATABASE [usuarios_api] SET COMPATIBILITY_LEVEL = 160
 GO
 IF (1 = FULLTEXTSERVICEPROPERTY('IsFullTextInstalled'))
 begin
